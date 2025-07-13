@@ -1,15 +1,19 @@
 // referrer check (anti bypass)
 // Referrer-Check
 if (!document.referrer.includes("linkvertise.com")) {
-  document.body.innerHTML = `
+document.body.innerHTML = `
   <div style="
     color: white; 
-    text-align: top; 
-    margin-top: 20%; 
-    font-size: 4em; 
+    font-size: 5em; 
     font-weight: bold;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
   ">
-    Bypass Detected! Bro please just use the Linkvertise
+    Bro you clearly have zero clue what your doing.
+    Just use the damn linkvertise before you make it worse.
   </div>
 `;
   throw new Error('Referrer invalid');
