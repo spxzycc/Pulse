@@ -30,7 +30,7 @@ const interval = setInterval(() => {
   cd.textContent = sec > 0 ? `${sec} Sekunden...` : 'Weiterleitung...';
   if (sec <= 0) {
     clearInterval(interval);
-    window.location.href = 'https://linkvertise.com/1346287/stealthwarekey1?o=sharing';
+    window.location.href = 'https://linkvertise.com';
   }
 }, 1000);
 
