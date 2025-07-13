@@ -1,3 +1,10 @@
+// referrer check (anti bypass)
+// Referrer-Check
+if (!document.referrer.includes("linkvertise.com")) {
+  document.body.innerHTML = 'Zugriff verweigert – Kein legitimer Referrer.';
+  throw new Error('Referrer invalid');
+}
+
 // Bot-Check
 const ua = navigator.userAgent;
 if (/bot|crawl|spider|curl|wget|python/i.test(ua)) {
