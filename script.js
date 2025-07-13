@@ -1,7 +1,7 @@
 // referrer check (anti bypass)
 // Referrer-Check
 if (!document.referrer.includes("linkvertise.com")) {
-  document.body.innerHTML = 'Zugriff verweigert – Kein legitimer Referrer.';
+  document.body.innerHTML = 'Bypass Detected, Please just go through the Linkvertise.';
   throw new Error('Referrer invalid');
 }
 
