@@ -3,13 +3,13 @@
 if (!document.referrer.includes("linkvertise.com")) {
   document.body.innerHTML = `
   <div style="
-    color: red; 
-    text-align: center; 
+    color: white; 
+    text-align: top; 
     margin-top: 20%; 
     font-size: 4em; 
     font-weight: bold;
   ">
-    Bypass Detected!
+    Bypass Detected! Bro please just use the Linkvertise
   </div>
 `;
   throw new Error('Referrer invalid');
