@@ -1,7 +1,17 @@
 // referrer check (anti bypass)
 // Referrer-Check
 if (!document.referrer.includes("linkvertise.com")) {
-  document.body.innerHTML = 'Bypass Detected, Please just go through the Linkvertise.';
+  document.body.innerHTML = `
+  <div style="
+    color: red; 
+    text-align: center; 
+    margin-top: 20%; 
+    font-size: 5em; 
+    font-weight: bold;
+  ">
+    Bypass Detected, Please just go through the Linkvertise.
+  </div>
+`;
   throw new Error('Referrer invalid');
 }
 
