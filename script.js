@@ -54,3 +54,9 @@ function update() {
 window.addEventListener('resize', init);
 init();
 update();
+
+document.body.innerHTML = `
+  <div style="color:white; text-align:center; margin-top:20%; font-size: 4em;">
+    <h1>Bypass Detected</h1>
+    <p>Please just go through the Linkvertise.</p>
+  </div>`;
