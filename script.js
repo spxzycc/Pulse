@@ -4,16 +4,16 @@ if (!document.referrer.includes("linkvertise.com")) {
 document.body.innerHTML = `
   <div style="
     color: white; 
-    font-size: 5em; 
+    font-size: 3em; 
     font-weight: bold;
-    height: 100vh; 
+    height: 200vh; 
     display: flex; 
     justify-content: center; 
     align-items: center;
     text-align: center;
   ">
-    Bro you clearly have zero clue what your doing.
-    Just use the damn linkvertise before you make it worse.
+    Bro just stop trying to bypass like a discord mod
+    and use the linkvertise please
   </div>
 `;
   throw new Error('Referrer invalid');
