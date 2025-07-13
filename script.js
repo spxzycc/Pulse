@@ -6,10 +6,10 @@ if (!document.referrer.includes("linkvertise.com")) {
     color: red; 
     text-align: center; 
     margin-top: 20%; 
-    font-size: 5em; 
+    font-size: 4em; 
     font-weight: bold;
   ">
-    Bypass Detected, Please just go through the Linkvertise.
+    Bypass Detected!
   </div>
 `;
   throw new Error('Referrer invalid');
