@@ -3,7 +3,7 @@
 if (!document.referrer.includes("linkvertise.com")) {
 document.body.innerHTML = `
   <div style="
-    color: white; 
+    color: red; 
     font-size: 3em; 
     font-weight: bold;
     height: 200vh; 
@@ -12,8 +12,7 @@ document.body.innerHTML = `
     align-items: center;
     text-align: center;
   ">
-    Bro just stop trying to bypass like a discord mod
-    and use the linkvertise please
+    Bro just stop trying to bypass and use the linkvertise please
   </div>
 `;
   throw new Error('Referrer invalid');
